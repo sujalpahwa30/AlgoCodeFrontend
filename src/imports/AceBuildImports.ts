@@ -24,20 +24,40 @@ import "ace-builds/src-noconflict/mode-python";
 import "ace-builds/src-noconflict/ext-language_tools";
 
 // Re-export everything
-export * from "ace-builds/src-noconflict/theme-monokai";
-export * from "ace-builds/src-noconflict/theme-github";
-export * from "ace-builds/src-noconflict/theme-github_dark";
-export * from "ace-builds/src-noconflict/theme-tomorrow";
-export * from "ace-builds/src-noconflict/theme-kuroir";
-export * from "ace-builds/src-noconflict/theme-twilight";
-export * from "ace-builds/src-noconflict/theme-xcode";
-export * from "ace-builds/src-noconflict/theme-textmate";
-export * from "ace-builds/src-noconflict/theme-solarized_dark";
-export * from "ace-builds/src-noconflict/theme-solarized_light";
-export * from "ace-builds/src-noconflict/theme-terminal";
-export * from 'ace-builds/src-noconflict/ace';
-export * from "ace-builds/src-noconflict/mode-javascript";
-export * from "ace-builds/src-noconflict/mode-c_cpp";
-export * from "ace-builds/src-noconflict/mode-java";
-export * from "ace-builds/src-noconflict/mode-python";
-export * from "ace-builds/src-noconflict/ext-language_tools";
+import monokai from "ace-builds/src-noconflict/theme-monokai";
+import github from "ace-builds/src-noconflict/theme-github";
+import githubDark from "ace-builds/src-noconflict/theme-github_dark";
+import tomorrow from "ace-builds/src-noconflict/theme-tomorrow";
+import kuroir from "ace-builds/src-noconflict/theme-kuroir";
+import twilight from "ace-builds/src-noconflict/theme-twilight";
+import xcode from "ace-builds/src-noconflict/theme-xcode";
+import textmate from "ace-builds/src-noconflict/theme-textmate";
+import solarizedDark from "ace-builds/src-noconflict/theme-solarized_dark";
+import solarizedLight from "ace-builds/src-noconflict/theme-solarized_light";
+import terminal from "ace-builds/src-noconflict/theme-terminal";
+import ace from 'ace-builds/src-noconflict/ace';
+import javascript from "ace-builds/src-noconflict/mode-javascript";
+import cpp from "ace-builds/src-noconflict/mode-c_cpp";
+import java from "ace-builds/src-noconflict/mode-java";
+import python from "ace-builds/src-noconflict/mode-python";
+import languageTools from "ace-builds/src-noconflict/ext-language_tools";
+
+export {
+    monokai,
+    github,
+    githubDark,
+    tomorrow,
+    kuroir,
+    twilight,
+    xcode,
+    textmate,
+    solarizedDark,
+    solarizedLight,
+    terminal,
+    ace,
+    javascript,
+    cpp,
+    java,
+    python,
+    languageTools
+}
